@@ -30,7 +30,7 @@ It comes with:
 
 ## Setup
 
-1. Get the starter
+### 1 - Get the starter
 
 Using the Polymer CLI:
 
@@ -42,7 +42,7 @@ polymer init convoo-starter
 
 [Simple Download](https://github.com/convoo/convoo-starter/releases).
 
-2. Setup firebase
+### 2 - Setup firebase
 
 ```
 npm install -g firebase-tools
@@ -52,7 +52,7 @@ firebase init
 When Firebase asks you for your public directory enter `build/unbundled`. Since [Firebase uses HTTP 2](https://firebase.googleblog.com/2016/09/http2-comes-to-firebase-hosting.html) this should be fine.
 You can also use `build/bundled` if you prefer.
 
-3. Serving while developing
+### 3 - Serving while developing
 
 While developing, you can quickly view wha tyou're working on using:
 
@@ -60,7 +60,7 @@ While developing, you can quickly view wha tyou're working on using:
 polymer serve
 ```
 
-4. Build & Deploy
+### 4 - Build & Deploy
 
 When you're ready to deploy, first build your work and double check it locally:
 
