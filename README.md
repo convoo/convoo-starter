@@ -23,7 +23,10 @@ applications that are built using Firebase and Redux.
 It comes with:
 
 * Firebase authentication already set up for email as well as social providers
-* Redux with polymer-redux set up
+* Redux with polymer-redux set up with three main objects:
+  1. firebase - object that persists to firebase and syncs with it
+  1. local - object that persists to local storage and can be used to sync cookie data
+  1. temp - object that stores temporary values that can be used in that session only -  eg: routes
 * Internationalization set up with a locales.json file for you to edit
 * Example views:
   * iron-list view displaying a stream of information from firebase
