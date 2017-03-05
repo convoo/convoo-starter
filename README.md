@@ -25,8 +25,10 @@ It comes with:
 * Firebase authentication already set up for email as well as social providers
 * Redux with polymer-redux set up
 * Internationalization set up with a locales.json file for you to edit
-* Example iron-list view displaying a stream of information from firebase
-* Example form saving to firebase
+* Example views:
+  * iron-list view displaying a stream of information from firebase
+  * Example form saving to firebase
+  * Example file upload into Firebase Storage
 
 ## Setup
 
